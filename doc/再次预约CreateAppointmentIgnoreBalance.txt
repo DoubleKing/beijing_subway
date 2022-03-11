@@ -1,0 +1,44 @@
+
+  curl 'https://webapi.mybti.cn/AppointmentRecord/GetAppointmentList?status=2&lastid=' \
+  -H 'authority: webapi.mybti.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'authorization: ZGU2YTI4MmQtYmRkZi00MWE4LThkNWYtMmJhNTYwNGE0YTljLDE2NDc1ODkzNzA3MDQsdmZubjA2TnEyNlg3VWJTTklCdk9wbW9VQ2hvPQ==' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'origin: https://webui.mybti.cn' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://webui.mybti.cn/' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  --compressed
+  
+  
+  [{"id":"0057083a","arrivalTime":"3月11日 (07:50~08:00)","lineName":"昌平线","stationName":"沙河站","appointmentTime":"2022-03-10 20:00","cancelTime":null,"newStatus":0,"arrivalStatus":0,"allowCancelStatus":0,"enterTime":"2022-03-11 07:50","enteredTime":"2022-03-11 08:05","type":0}]
+
+
+
+
+curl 'https://webapi.mybti.cn/Appointment/CreateAppointmentIgnoreBalance' \
+  -H 'authority: webapi.mybti.cn' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'authorization: ZGU2YTI4MmQtYmRkZi00MWE4LThkNWYtMmJhNTYwNGE0YTljLDE2NDc1ODkzNzA3MDQsdmZubjA2TnEyNlg3VWJTTklCdk9wbW9VQ2hvPQ==' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'origin: https://webui.mybti.cn' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://webui.mybti.cn/' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  --data-raw '{"appointmentId":"0057083a"}' \
+  --compressed
+  
+  
+{"balance":0,"appointmentId":"00574624","stationEntrance":"A2口"}
+

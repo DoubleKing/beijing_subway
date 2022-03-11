@@ -1,0 +1,54 @@
+{
+    "start_time": "11:59:59",
+    "next_day_end_time": "07:20:00",
+    "account": [
+        {
+            "phone": "13693151111",
+            "auth": "xxxxxxxxxMGEtODQzOC00NjlkLTljODMtZWZlZTZhZTYwMTRmLDE2NDc1OTc0MDc4MDAsb2xSNFNwV0tJbUp2Q0hyYm1vWklxcWZMTm9vPQ==",
+            "timeSlot": "0750-0800",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        },
+		{
+            "phone": "13693152222",
+            "auth": "vvvvvvvvvMGEtODQzOC00NjlkLTljODMtZWZlZTZhZTYwMTRmLDE2NDc1ODE1NDM0OTksV2lOdFpBOGVrTXF1TXFHRU1EZHRvalJsbmE4PQ==",
+            "timeSlot": "0800-0810",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        },
+		{
+            "phone": "13693153333",
+            "auth": "bbbbbbbbbbMGEtODQzOC00NjlkLTljODMtZWZlZTZhZTYwMTRmLDE2NDc1NTk5OTU3MTEsejlzTmNieHRLSExwZ0R6K3FGWXNSM1NmaDhrPQ==",
+            "timeSlot": "0810-0820",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        },
+		        {
+            "phone": "15301314444",
+            "auth": "bbbbbbbbQtYmRkZi00MWE4LThkNWYtMmJhNTYwNGE0YTljLDE2NDc1OTI2OTQyNjAsSmV1STRVWjhPREl0b1hwZXFPdVpYdGlneHVFPQ==",
+            "timeSlot": "0750-0800",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        },
+		{
+            "phone": "15301315555",
+            "auth": "nnnnnnnnnnnn4LThkNWYtMmJhNTYwNGE0YTljLDE2NDc2MDM2NjI1MTEsODRUNVphUW9zcE1xcHNnR3NXd1p5Y3ZheDM0PQ==",
+            "timeSlot": "0800-0810",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        },
+		{
+            "phone": "15301316666",
+            "auth": "nnnnnnnnnnnnkZi00MWE4LThkNWYtMmJhNTYwNGE0YTljLDE2NDc1ODkzNzA3MDQsdmZubjA2TnEyNlg3VWJTTklCdk9wbW9VQ2hvPQ==",
+            "timeSlot": "0810-0820",
+            "lineName": "昌平线",
+            "stationName": "沙河站",
+            "updateDate": "2022-01-20"
+        }
+    ]
+}
