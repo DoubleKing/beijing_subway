@@ -19,7 +19,7 @@ int main(int argc ,char * argv[])
         Config conf;
         conf.ConfigInit();
         Timer timer(conf.start_time, conf.next_day_end_time);
-        //if (timer.m_weekday != 5 && timer.m_weekday != 6)
+        if (timer.m_weekday != 5 && timer.m_weekday != 6)
         {
             if (timer.m_str_today != today)
             {
